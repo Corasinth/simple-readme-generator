@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+//Packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const markdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [ 
     {
     type: "input",
@@ -40,7 +40,7 @@ const questions = [
     type: "list",
     message: "PLease choose your project's license:",
     name: "license",
-    choices: ["MIT License", "Apache 2.0 License", "Mozilla Public License 2.0", "GNU GPL v3", "Boost Software License 1.0", "The Hippocratic License 2.1", "The Unlicense"]
+    choices: ["MIT License", "Apache 2.0 License", "Mozilla Public License 2.0", "GNU GPL v3", "Boost Software License 1.0", "The Hippocratic License 2.1", "The Unlicense", "Leave License Blank"]
     },
     {
     type: "input",
@@ -55,7 +55,7 @@ const questions = [
 
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 async function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         err ? console.error(err) : console.log('readme.md has been succesfully generated')
