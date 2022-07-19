@@ -24,7 +24,7 @@ Generating a read me is as simple as navigating to the cloned directory in node.
 
 Below is a video demonstrating how to use the generator. 
 
-![alt text](./assets/images/demo-vid.mp4)
+![alt text](./assets/images/demo-vid.gif)
 
 ## Credits
 
