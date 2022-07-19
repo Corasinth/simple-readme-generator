@@ -1,30 +1,37 @@
-# Life on Mars?
+# d
 
-## Description [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+## Description [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project notifies you every 60 seconds about whether or not life exists on Mars.
+d
 
-## Table of Contents\nn* [Installation](#installation)
+## Table of Contents
+
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
 * [Tests](#tests)
-* [Credits](#credits)
 * [Questions](#questions)
 * [License](#license)
 ## Installation
 
-To install, just run npm install after cloning.
+d
 
 ## Usage
 
-Pay careful attention to the notifications and everything will be fine.
+d
 
 ## Contribution
 
-Pull requests are great!
+d
 
 ## Tests
 
-## Questions?
+## Questions
 
- Questions are always welcome. You can reach out to me via my email (myemail@email.com), or find me at my GitHub ([Corasinth](https://github.com/Corasinth))undefined---
+ Questions are always welcome. You can reach out to me via my email (d), or find me at my GitHub ([d](https://github.com/d))
+
+## [License](./LICENSE)
+
+This project uses the MIT License. More information about the license can be found via the license link above, or the badge at the top of the page. Thank you.
+
+---
