@@ -26,10 +26,11 @@ function renderLicenseBadge(license) {
 // Function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "") {
+  if (license === "Leave License Blank") {
+    console.log ("\n\n")
     return "\n\n"
   } else {
- `## [License](./LICENSE)\n\nThis project uses the ${license}. More information about the license can be found via the license link above, or the badge at the top of the page. Thank you.\n\n`
+    return `## [License](./LICENSE)\n\nThis project uses the ${license}. More information about the license can be found via the license link above, or the badge at the top of the page. Thank you.\n\n`;
   }
 }
 
@@ -37,7 +38,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   let badge = renderLicenseBadge(data.license);
   let section = renderLicenseSection(data.license);
-  let markdownStr = `# ${data.title}\n\n## Description ${badge}\n\n${data.description}\n\n## Table of Contents\\nn* [Installation](#installation)\n* [Usage](#usage)\n* [Contribution](#contribution)\n* [Tests](#tests)\n* [Credits](#credits)\n* [Questions?](#questions?)[License](#license)\n## Installation\n\n${data.installation}\n\n## Usage\n\n${data.usage}\n\n## Contribution\n\n${data.contribution}\n\n## Tests\n\n## Questions?\n\n Questions are always welcome. You can reach out to me via my email (${data.email}), or find me at my GitHub ([${data.github}](https://github.com/${data.github}))${section}---`
+  let markdownStr = `# ${data.title}\n\n## Description ${badge}\n\n${data.description}\n\n## Table of Contents\n\n* [Installation](#installation)\n* [Usage](#usage)\n* [Contribution](#contribution)\n* [Tests](#tests)\n* [Questions?](#questions?)\n* [License](#license)\n## Installation\n\n${data.installation}\n\n## Usage\n\n${data.usage}\n\n## Contribution\n\n${data.contribution}\n\n## Tests\n\n## Questions?\n\n Questions are always welcome. You can reach out to me via my email (${data.email}), or find me at my GitHub ([${data.github}](https://github.com/${data.github}))${section}---`
   return markdownStr;
 }
 

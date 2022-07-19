@@ -1,29 +1,30 @@
-# nd
+# Life on Mars?
 
-## Description[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+## Description [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-d
+This project notifies you every 60 seconds about whether or not life exists on Mars.
 
 ## Table of Contents\nn* [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
 * [Tests](#tests)
 * [Credits](#credits)
-* [Questions?](#questions?)[License](#license)
+* [Questions](#questions)
+* [License](#license)
 ## Installation
 
-d
+To install, just run npm install after cloning.
 
 ## Usage
 
-d
+Pay careful attention to the notifications and everything will be fine.
 
 ## Contribution
 
-d
+Pull requests are great!
 
 ## Tests
 
 ## Questions?
 
- Questions are always welcome. You can reach out to me via my email (d), or find me at my GitHub ([d](https://github.com/d))undefined---
+ Questions are always welcome. You can reach out to me via my email (myemail@email.com), or find me at my GitHub ([Corasinth](https://github.com/Corasinth))undefined---

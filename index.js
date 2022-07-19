@@ -64,7 +64,6 @@ async function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 async function init() {
     let data = await inquirer.prompt(questions);
-    console.log(data)
     let readmeString = generateMarkdown(data);
     writeToFile('samplereadme.md', readmeString)
 };
