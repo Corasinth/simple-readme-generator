@@ -1,8 +1,8 @@
-# d
+# Life on Mars?
 
-## Description [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Description [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-d
+This project sends you notifications every 60 seconds about whether or not there is life on Mars.
 
 ## Table of Contents
 
@@ -14,24 +14,24 @@ d
 * [License](#license)
 ## Installation
 
-d
+To install, just run an npm install after cloning!
 
 ## Usage
 
-d
+Please pay careful attention to the notifications.
 
 ## Contribution
 
-d
+Pull requests are great!
 
 ## Tests
 
 ## Questions
 
- Questions are always welcome. You can reach out to me via my email (d), or find me at my GitHub ([d](https://github.com/d))
+ Questions are always welcome. You can reach out to me via my email (email@email.com), or find me at my GitHub ([Corasinth](https://github.com/Corasinth))
 
 ## [License](./LICENSE)
 
-This project uses the MIT License. More information about the license can be found via the license link above, or the badge at the top of the page. Thank you.
+This project uses the Mozilla Public License 2.0. More information about the license can be found via the license link above, or the badge at the top of the page. Thank you.
 
 ---
