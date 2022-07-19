@@ -27,7 +27,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "") {
-    return ""
+    return "\n\n"
   } else {
  `## [License](./LICENSE)\n\nThis project uses the ${license}. More information about the license can be found via the license link above, or the badge at the top of the page. Thank you.\n\n`
   }
