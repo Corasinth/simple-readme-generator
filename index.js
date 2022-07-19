@@ -50,16 +50,16 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// async function writeToFile(fileName, data) {
-//     fs.writeFile('readme.md', data, (err) => {
-//         err ? console.error(err) : console.log('readme.md has been succesfully generated')
-//     })
-// };
+async function writeToFile(fileName, data) {
+    fs.writeFile(readme, data, (err) => {
+        err ? console.error(err) : console.log('readme.md has been succesfully generated')
+    })
+};
 
 // TODO: Create a function to initialize app
 async function init() {
     let response = await inquirer.prompt(questions);
-    writeToFile(TBD, TBD)
+    writeToFile('readme.md', TBD)
 };
 
 // Function call to initialize app
